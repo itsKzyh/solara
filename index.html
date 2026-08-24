@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="Solara Inc — independent Roblox game studio creating anime-inspired experiences.">
+  <title>Solara Inc — Roblox Game Studio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <svg class="svg-defs" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M8 16 17 7M10 7h7v7"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H6M11 7l-5 5 5 5"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m7 9 5 5 5-5"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="10" height="10" rx="2"/><path d="M6 15H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+    <symbol id="i-discord" viewBox="0 0 24 24"><path d="M8.2 8.7c2.6-1 5-1 7.6 0M7.1 16.3c3 2.2 6.8 2.2 9.8 0M8.7 15c-1.1 0-2-.9-2-2s.9-2 2-2M15.3 15c1.1 0 2-.9 2-2s-.9-2-2-2"/><path d="M6.4 5.6C4.2 8.5 3.2 11.7 3.5 15l2.8 2.2 1.2-1.5M17.6 5.6c2.2 2.9 3.2 6.1 2.9 9.4l-2.8 2.2-1.2-1.5M8 5l1.2 2M16 5l-1.2 2"/></symbol>
+    <symbol id="i-game" viewBox="0 0 24 24"><path d="M7 9h10a4 4 0 0 1 3.8 5.2l-1.2 3.6a2 2 0 0 1-3.4.7L14.8 17H9.2l-1.4 1.5a2 2 0 0 1-3.4-.7l-1.2-3.6A4 4 0 0 1 7 9Z"/><path d="M8 12v4M6 14h4M16.5 12.5h.01M18.5 14.5h.01"/></symbol>
+    <symbol id="i-team" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2"/><path d="M3.5 18c.5-3.1 2.4-5 5.5-5s5 1.9 5.5 5M14 14c2.8 0 4.5 1.4 5 4"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2 14.2 9.8 22 12l-7.8 2.2L12 22l-2.2-7.8L2 12l7.8-2.2L12 2Z"/></symbol>
+  </svg>
+
+  <header class="site-header" id="siteHeader">
+    <div class="shell nav-shell">
+      <a class="brand" href="#home" data-route="home" aria-label="Solara Inc home">
+        <img src="assets/solara-logo.png" alt="Solara Inc">
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#home" data-route="home">Home</a>
+        <a href="#about">About</a>
+        <a href="#games" data-route="games">Games</a>
+        <a href="#team" data-route="team">Team</a>
+      </nav>
+      <a class="contact-link" href="https://discord.gg/rdV2qfe3ua" target="_blank" rel="noreferrer">Contact Us <svg><use href="#i-external"/></svg></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Open menu"><svg><use href="#i-menu"/></svg></button>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#home" data-route="home">Home</a><a href="#about">About</a><a href="#games" data-route="games">Games</a><a href="#team" data-route="team">Team</a>
+      <a href="https://discord.gg/rdV2qfe3ua" target="_blank" rel="noreferrer">Contact Us</a>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <img src="assets/solara-logo.png" alt="Solara Inc">
+      <div>© 2026 Solara Inc. All rights reserved.</div>
+      <div class="footer-links"><a href="#games" data-route="games">Games</a><a href="#team" data-route="team">Team</a><a href="https://discord.gg/rdV2qfe3ua" target="_blank">Discord</a></div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
